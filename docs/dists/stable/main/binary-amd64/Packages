@@ -1,49 +1,52 @@
 Package: heckler
-Version: 0.30-2~bt
 Architecture: amd64
+Version: 0.30-2~bt
+Priority: optional
+Section: misc
 Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
 Installed-Size: 10646
-Filename: pool/heckler_0.30-2~bt_amd64.deb
+Filename: pool/main/heckler_0.30-2~bt_amd64.deb
 Size: 4387368
 MD5sum: 11c43f4651dc6c4dc65805b5b8b1ad79
 SHA1: 874f4f648d137ebaa7bde1e2316a70c94f3ccc49
 SHA256: fd4da4bf57ec11a2cb9053c2361d3fba4b9962bcd3a293c17310d999d961fc4d
-Section: misc
-Priority: optional
+SHA512: b45b1418ad99b8c92445095fffa17736bedd78f31c0bd0980757a1b5857bc6eb6a36475d0d3a157545f875b323f37600c2b1027c54e207edfd150692986366fd
 Homepage: https://github.com/braintree/heckler
 Description: Heckler control client for talking to hecklerd
 
 Package: hecklerd
-Source: heckler
-Version: 0.30-2~bt
 Architecture: amd64
+Version: 0.30-2~bt
+Priority: optional
+Section: misc
+Source: heckler
 Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
 Installed-Size: 28162
 Depends: git
-Filename: pool/hecklerd_0.30-2~bt_amd64.deb
+Filename: pool/main/hecklerd_0.30-2~bt_amd64.deb
 Size: 13496288
 MD5sum: 3552461ec4a8fbe671b0ed25fee79c82
 SHA1: 7a62d3612526b0130a3599737795efc9182ccaa8
 SHA256: 80125408d40314b7aa6353208e0cd874cb6fbe26bb8a57c4262ceb6d01257237
-Section: misc
-Priority: optional
+SHA512: 3403ea9cb80668fcb056cc59c481e96c95f0c183703baeb39b2c29e5cea1a7746c9fa633bf83006a11df5d912b7446236e7aead4388a43c9288b66c11311be55
 Homepage: https://github.com/braintree/heckler
 Description: Heckler daemon for applying and aggregating noops
 
 Package: rizzod
-Source: heckler
-Version: 0.30-2~bt
 Architecture: amd64
+Version: 0.30-2~bt
+Priority: optional
+Section: misc
+Source: heckler
 Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
 Installed-Size: 31756
 Depends: git
-Filename: pool/rizzod_0.30-2~bt_amd64.deb
+Filename: pool/main/rizzod_0.30-2~bt_amd64.deb
 Size: 18355192
 MD5sum: df13116e00ea662ad305b12548588697
 SHA1: a5c48cbc6c375eab8212040474fb45b2fcbc61b8
 SHA256: 90689883f89800ab296a19dfbd60abb2aeb99c4941eb0157444a5ee5005e15f3
-Section: misc
-Priority: optional
+SHA512: 917589da3a30d99d88a9f864afb0ebe248a97aad58d6f67249deb17ef8f354879f5b2252afa4eb33b5fffc61f2be76094eef65eba985b8dae9ab8a7ee9420d7d
 Homepage: https://github.com/braintree/heckler
 Description: Heckler node daemon for responding to requests from hecklerd
 
