@@ -1,104 +1,52 @@
 Package: heckler
 Architecture: amd64
-Version: 0.30+git20221018.ba550925
+Version: 0.30+git20221018.6b688df2
 Priority: optional
 Section: misc
 Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
 Installed-Size: 10646
-Filename: pool/main/heckler_0.30+git20221018.ba550925_amd64.deb
-Size: 4387664
-MD5sum: 85147f246a4d56d0c2b584fab218ea62
-SHA1: 9c2721f36a4d9210c92772d85e8fb27b23d2d778
-SHA256: f8cb0fd38016e288404ff9a9597832d8a7235067cf9f0c3b5ff737a044f2302e
-SHA512: 5f4219bf9f4f80e17ce13b22b0bcc8c3cc36ae4fc9eb029e05b99245040521ab7de6ca141b757e83582927c781f51324d483f27507af628048bdd313870c6ccb
-Homepage: https://github.com/braintree/heckler
-Description: Heckler control client for talking to hecklerd
-
-Package: heckler
-Architecture: amd64
-Version: 0.30-2~bt
-Priority: optional
-Section: misc
-Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
-Installed-Size: 10646
-Filename: pool/main/heckler_0.30-2~bt_amd64.deb
-Size: 4387368
-MD5sum: 11c43f4651dc6c4dc65805b5b8b1ad79
-SHA1: 874f4f648d137ebaa7bde1e2316a70c94f3ccc49
-SHA256: fd4da4bf57ec11a2cb9053c2361d3fba4b9962bcd3a293c17310d999d961fc4d
-SHA512: b45b1418ad99b8c92445095fffa17736bedd78f31c0bd0980757a1b5857bc6eb6a36475d0d3a157545f875b323f37600c2b1027c54e207edfd150692986366fd
+Filename: pool/main/heckler_0.30+git20221018.6b688df2_amd64.deb
+Size: 4387700
+MD5sum: e34186742eaaeb7e3f0bb2aea875ddbc
+SHA1: 3b2a44ff59de83da87d0c69c1f4ea164f06822a9
+SHA256: d8810b1e83bad9b6a64ee2476d18b1ef0dfb52f0e4f85e7c26b65db78cee2923
+SHA512: 1080b4af12a6fbfbb731f5db7a3cd1c3eec584aeec1326c7b9c40112947cb7c650820dce65a2349e918f61238582e32cf36fb1ecd046c5df406f8435da556adc
 Homepage: https://github.com/braintree/heckler
 Description: Heckler control client for talking to hecklerd
 
 Package: hecklerd
 Architecture: amd64
-Version: 0.30+git20221018.ba550925
+Version: 0.30+git20221018.6b688df2
 Priority: optional
 Section: misc
 Source: heckler
 Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
 Installed-Size: 28113
 Depends: git
-Filename: pool/main/hecklerd_0.30+git20221018.ba550925_amd64.deb
-Size: 13474740
-MD5sum: 0b07f010f0f8bef59425b493ae71b70c
-SHA1: 70c1dc09d5d0ca75bd2bc7d85193e24e7b3c72af
-SHA256: e0e206f8011167fc8c81a6cb5b8aab59b1a79928befdcf2d4a45f71e864b13eb
-SHA512: c041de0d8574515af93095d3aef750770354542a625149ae2717e69c99e3af32a2bbdf335ef5bef7c7b92ff803d0fc204509d2553ddbdc6b9eccdb7ee9fc891e
-Homepage: https://github.com/braintree/heckler
-Description: Heckler daemon for applying and aggregating noops
-
-Package: hecklerd
-Architecture: amd64
-Version: 0.30-2~bt
-Priority: optional
-Section: misc
-Source: heckler
-Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
-Installed-Size: 28162
-Depends: git
-Filename: pool/main/hecklerd_0.30-2~bt_amd64.deb
-Size: 13496288
-MD5sum: 3552461ec4a8fbe671b0ed25fee79c82
-SHA1: 7a62d3612526b0130a3599737795efc9182ccaa8
-SHA256: 80125408d40314b7aa6353208e0cd874cb6fbe26bb8a57c4262ceb6d01257237
-SHA512: 3403ea9cb80668fcb056cc59c481e96c95f0c183703baeb39b2c29e5cea1a7746c9fa633bf83006a11df5d912b7446236e7aead4388a43c9288b66c11311be55
+Filename: pool/main/hecklerd_0.30+git20221018.6b688df2_amd64.deb
+Size: 13473068
+MD5sum: 19e911d61f13fd258b13b567f6837c8b
+SHA1: 7b625f778b914bc62b6dcf9f5b23bf0c37aa7dfa
+SHA256: 4464a2ee81c8e59ea3813a006138459e780e28aa95dfb3717ca57b34051e5674
+SHA512: d29af01e304ac2946f1aa342d2e3f219a933a1b95013323e4014bd70b24faa71686711e3e005f91472e5567bb579b72ddd89d7a71ca076475f1954855cbdd190
 Homepage: https://github.com/braintree/heckler
 Description: Heckler daemon for applying and aggregating noops
 
 Package: rizzod
 Architecture: amd64
-Version: 0.30+git20221018.ba550925
+Version: 0.30+git20221018.6b688df2
 Priority: optional
 Section: misc
 Source: heckler
 Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
 Installed-Size: 31667
 Depends: git
-Filename: pool/main/rizzod_0.30+git20221018.ba550925_amd64.deb
-Size: 18313204
-MD5sum: 2cd67147eded0b438b315bb95268b908
-SHA1: 68bfb8a8590417af818a5648bd15c2a541b5c2f2
-SHA256: 351c916a099e329e542c9f45fa82403462563190731bdac7f55dcb57a22be246
-SHA512: 8cf0e07468ba8c955b5a73fe9c3f7d517b6a662b373e2429316a10884b85d3c11f74dfc24317b9d8f01e3d91bbf8864f94596c2f0f1e5d3f37d4b19d90976d9b
-Homepage: https://github.com/braintree/heckler
-Description: Heckler node daemon for responding to requests from hecklerd
-
-Package: rizzod
-Architecture: amd64
-Version: 0.30-2~bt
-Priority: optional
-Section: misc
-Source: heckler
-Maintainer: Jesse Hathaway <jesse@mbuki-mvuki.org>
-Installed-Size: 31756
-Depends: git
-Filename: pool/main/rizzod_0.30-2~bt_amd64.deb
-Size: 18355192
-MD5sum: df13116e00ea662ad305b12548588697
-SHA1: a5c48cbc6c375eab8212040474fb45b2fcbc61b8
-SHA256: 90689883f89800ab296a19dfbd60abb2aeb99c4941eb0157444a5ee5005e15f3
-SHA512: 917589da3a30d99d88a9f864afb0ebe248a97aad58d6f67249deb17ef8f354879f5b2252afa4eb33b5fffc61f2be76094eef65eba985b8dae9ab8a7ee9420d7d
+Filename: pool/main/rizzod_0.30+git20221018.6b688df2_amd64.deb
+Size: 18313368
+MD5sum: 58a2eaad0280f83139ee5da80d35a123
+SHA1: 9b870bb474606336ae4007b0745c1b371cc66a37
+SHA256: 2e3a82de56dfdb242d9c3ce19108cdca66f0e7e3d2bf2692d37fe2b58856084e
+SHA512: b8809e98b4d812da5b89693dc2df57c7797c497b45a5c126afeab66a5447baf97cc72500396070628f4e8d9919fbc721ca46cde546158f871bb4354e27a1af40
 Homepage: https://github.com/braintree/heckler
 Description: Heckler node daemon for responding to requests from hecklerd
 

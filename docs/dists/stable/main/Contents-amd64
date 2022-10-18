@@ -4,13 +4,10 @@ usr/bin/heckler						    heckler
 usr/bin/hecklerd					    hecklerd
 usr/bin/rizzo-rev					    rizzod
 usr/bin/rizzod						    rizzod
-usr/share/doc/heckler/changelog.Debian.gz		    heckler
 usr/share/doc/heckler/changelog.gz			    heckler
 usr/share/doc/heckler/copyright				    heckler
-usr/share/doc/hecklerd/changelog.Debian.gz		    hecklerd
 usr/share/doc/hecklerd/changelog.gz			    hecklerd
 usr/share/doc/hecklerd/copyright			    hecklerd
-usr/share/doc/rizzod/changelog.Debian.gz		    rizzod
 usr/share/doc/rizzod/changelog.gz			    rizzod
 usr/share/doc/rizzod/copyright				    rizzod
 usr/share/hecklerd/templates/adminApprovalComment.tmpl	    hecklerd
